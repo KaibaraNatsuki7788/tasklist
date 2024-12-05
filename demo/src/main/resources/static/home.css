@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
+
+body {
+background-color: #B3C7F3;
+height: 800px;
+font-family: 'Sawarabi Gothic', sans-serif;
+
+}
+
+body h1 {
+text-align:center;
+}
+
+.container{
+display: flex;
+margin: 0 auto;
+width: 80%;
+justify-content: space-around;
+}
+
+.task_form{
+background-color: whitesmoke;
+border-radius: 100px;
+text-align: center;
+padding: 40px;
+}
+
+.btn {
+  border-radius: 5px;
+  margin-top: 2em;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-left: solid 4px #668ad8;
+  border-right: solid 4px #668ad8;
+  color: #668ad8;
+  background: #e1f3ff;
+  transition: .3s;
+}
+
+.del_btn{
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.3em 0.8em;
+  text-decoration: none;
+  border-left: solid 4px #668ad8;
+  border-right: solid 4px #668ad8;
+  color: #668ad8;
+  background: #e1f3ff;
+  transition: .3s;
+}
+
+.btn:hover, .del_btn:hover{
+  background: #668ad8;
+  color: #FFF;
+}
+
+.form {
+ width: 200px;
+ height: 30px;
+ border-radius: 5px;
+}
+
+.tasklist{
+margin: 0 auto;
+text-align: center;
+width: 80%;
+}
+
+table{
+padding: 40px 0;
+ width:80%;
+ margin:0 auto;
+ text-align:center;
+ color:#333333;
+ }
+
+ th{
+ color:#ffffff;
+ background-color: #668ad8;
+ }
+
+ td{
+ color: #666;
+ background-color: #E0E8FB;
+ }
