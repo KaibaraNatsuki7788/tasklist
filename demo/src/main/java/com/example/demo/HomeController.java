@@ -1,3 +1,4 @@
+//12-05の状態
 package com.example.demo;
 
 import org.springframework.beans.factory.annotation.Autowired;
