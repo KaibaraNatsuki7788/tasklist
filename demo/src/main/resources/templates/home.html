@@ -13,7 +13,7 @@
     <h2>タスクの登録</h2>
 
     <form action="/add">
-        <label>名前</label><br>
+        <label>教科名</label><br>
         <input class="form" name="name" type="text" required/><br>
         <label>タスク</label><br>
         <input class="form" name="task" type="text" required/><br>
@@ -27,7 +27,7 @@
         <h2>タスクの更新</h2>
         <form action="/update">
             <input  class="form" id="update_id" name="id" type="hidden"/>
-            <label>名前</label><br>
+            <label>教科名</label><br>
             <input class="form" id="update_name" name="name" type="text"/><br>
             <label>タスク</label><br>
             <input class="form" id="update_task" name="task" type="text"/><br>
@@ -54,7 +54,7 @@
         <thead>
         <tr>
             <th class="hidden">ID</th>
-            <th>名前</th>
+            <th>教科名</th>
             <th>タスク</th>
             <th>期限</th>
             <th>状態</th>
