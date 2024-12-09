@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Error</title>
+</head>
+<body>
+<h1>エラーが発生しました</h1>
+<p th:text="${error}"></p>
+<a th:href="@{/list}">タスク一覧に戻る</a>
+</body>
+</html>

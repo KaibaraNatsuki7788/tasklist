@@ -5,6 +5,12 @@
     <title>サポートEx</title>
     <link th:href="@{/home.css}" rel="stylesheet">
 </head>
+
+<style>
+    .hidden{
+        display: none;
+    }
+</style>
 <body>
 <h1>サポートEx</h1>
 
@@ -26,13 +32,13 @@
     <div class="task_form">
         <h2>タスクの更新</h2>
         <form action="/update">
-            <input  class="form" id="update_id" name="id" type="hidden"/>
+            <input  class="form" id="update_id" name="id" type="hidden" required/>
             <label>教科名</label><br>
-            <input class="form" id="update_name" name="name" type="text"/><br>
+            <input class="form" id="update_name" name="name" type="text" required/><br>
             <label>タスク</label><br>
-            <input class="form" id="update_task" name="task" type="text"/><br>
+            <input class="form" id="update_task" name="task" type="text" required/><br>
             <label>期限</label><br>
-            <input class="form" id="update_deadline" name="deadline" type="date"/><br>
+            <input class="form" id="update_deadline" name="deadline" type="date" required/><br>
             <label>状態</label><br>
             <select class="form" id="update_status" name="done">
                 <option value="false">未完了</option>
