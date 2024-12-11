@@ -38,7 +38,7 @@
             <label>タスク</label><br>
             <input class="form" id="update_task" name="task" type="text" required/><br>
             <label>期限</label><br>
-            <input class="form" id="update_deadline" name="deadline" type="date" required/><br>
+            <input class="form" id="update_deadline" name="deadline" type="date"/><br>
             <label>状態</label><br>
             <select class="form" id="update_status" name="done">
                 <option value="false">未完了</option>
@@ -81,7 +81,7 @@
                  getElementById('update_id').value=row.cells[0].firstChild.data;
                  getElementById('update_name').value=row.cells[1].firstChild.data;
                  getElementById('update_task').value=row.cells[2].firstChild.data;
-                 getElementById('update_deadline').value=row.cell[3].firstChild.data;
+                 getElementById('update_deadline').value=row.cells[3].firstChild.data;
                  getElementById('update_status').selectedIndex=(row.cells[4].firstChild.data=='完了')?1:0;
                  var dialog = getElementById('updateDialog');
                  dialog.style.left = ((window.innerWidth - 500)/2) + 'px';
